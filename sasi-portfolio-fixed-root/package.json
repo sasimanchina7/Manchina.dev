@@ -1,9 +1,8 @@
 {
   "name": "bhavani-krishna-veni-portfolio",
-  "homepage": "https://sasimanchina7.github.io/Manchina.dev",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://sasimanchina7.github.io/Manchina.dev",
+ "homepage": "https://sasimanchina7.github.io/Manchina.dev",
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
