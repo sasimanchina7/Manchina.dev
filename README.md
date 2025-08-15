@@ -11,11 +11,12 @@ Five levels of machine learning projects, from beginner to industry leader.
 
 ## Level 1 — Beginner Projects
 
-<img src="https://pandas.pydata.org/static/img/pandas_mark.svg" alt="pandas logo" height="28"/> [**pandas**](https://pandas.pydata.org/)  
+Working with clean, structured data in **Jupyter notebooks**, using libraries like pandas, matplotlib, and scikit-learn for basic data manipulation, visualisation, and model training.
+- 
+<img src="https://pandas.pydata.org/static/img/pandas_mark.svg" alt="pandas logo" height="20"/> [**pandas**](https://pandas.pydata.org/)  
 <img src="https://matplotlib.org/_static/images/logo2.svg" alt="matplotlib logo" height="28"/> [**matplotlib**](https://matplotlib.org/)  
-<img src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" alt="scikit-learn logo" height="28"/> [**scikit-learn**](https://scikit-learn.org/stable/)  
+<img src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" alt="scikit-learn logo" height="20"/> [**scikit-learn**](https://scikit-learn.org/stable/)  
 
-- Working with clean, structured data in **Jupyter notebooks**, using libraries like pandas, matplotlib, and scikit-learn for basic data manipulation, visualisation, and model training.  
 - **Level 1 Project Example:** Loading a CSV, performing exploratory data analysis, handling missing values, and encoding categorical features.  
 - **Level 1 Learning:** Using one-hot encoding, default hyper-parameters, and basic metrics in notebooks for learning and immediate feedback.
 
