@@ -1,0 +1,19 @@
+sequenceDiagram
+    participant User
+    participant CloudFront
+    participant LambdaFunctionURL
+    participant AgentRuntime
+
+    User->>CloudFront: Sends HTTP Request
+    CloudFront->>LambdaFunctionURL: Forwards Request
+    LambdaFunctionURL->>AgentRuntime: Invokes Lambda Function
+    AgentRuntime->>LambdaFunctionURL: Streams back partial response
+    LambdaFunctionURL->>CloudFront: Streams back partial response
+    CloudFront->>User: Streams back partial response
+
+    Note over AgentRuntime: Processing begins...
+    Note over AgentRuntime: Sends first chunk
+    Note over AgentRuntime: Continues generating content
+    Note over AgentRuntime: Sends subsequent chunks
+    Note over AgentRuntime: Finishes generating content
+    Note over AgentRuntime: Sends final chunk and completes
